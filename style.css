@@ -4,4 +4,169 @@ body{
     display: flex;
     flex-direction: column;
     font-family: 'Roboto';
+    margin: 0;
+    min-height: 100vh;
+}
+
+.header{
+    display: flex;
+    flex-direction: column;
+    background-color: #1F2937;
+    padding: 0 400px 100px 400px;
+
+}
+
+.top{
+    display: flex;
+    justify-content: space-between;
+
+
+}
+
+.logo{
+    font-size:24px;
+    color: #f9faf8;
+}
+ul{
+    display: flex;
+    margin: 0;
+    gap:15px;
+}
+
+a{
+    text-decoration-line:none;
+    color: slategrey;
+}
+.left{
+    max-width: 539px;
+}
+.right{
+    display: flex;
+    align-items: center;
+}
+
+.bot{
+    display: flex;
+    margin-top: 50px;
+    justify-content: space-between;
+
+}
+.hero-main{
+    font-size: 48px;
+    font-weight: 900;
+    color: #f9faf8;
+}
+.hero-text{
+    font-size: 18px;
+    color: #e5e7eb;
+    max-width: 450px;
+}
+
+.box{
+    padding: 100px;
+    background-color: slategrey;
+}
+button{
+    margin-top: 10px;
+    width: 90px;
+    height: 30px;
+    background-color: #3882f8;
+    color: #f9faf8;
+    border-radius: 5px;
+
+}
+
+.card-infomation{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding: 50px;
+    gap:50px;
+}
+
+.card{
+    display: flex;
+    justify-content: center;
+    gap:100px;
+
+}
+
+.box1{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 200px;
+    width: 100px;
+}
+.box-1{
+    height: 100px;
+    width: 100px;
+    border:2px solid #3882f8;
+    border-radius: 12px;
+}
+
+.info{
+    font-weight: 900;
+    font-size: 36px;
+}
+
+.text{
+    width: 170px;
+}
+
+.quote{
+    display: flex;
+    flex-direction: column;
+    background-color: #e5e7eb;
+    padding: 100px;
+    align-items: center;
+
+}
+
+.text1{
+    width: 1120px;
+    font-size: 36px;
+    color:#1F2937
+}
+.text2{
+    font-size: 18px;
+    margin-left: 950px;
+}
+
+.Sign-up{
+    margin: 100px;
+    display: flex;
+    padding: 50px;
+    justify-content: center;
+    background-color: #3882f8;
+    justify-content: space-between;
+    border-radius: 12px;
+    box-sizing: border-box;
+
+
+}
+.text3{
+    font-size: 24px;
+    color: white;
+    font-weight: 900;
+    margin-left: 200px;
+    width: 300px;
+}
+
+.text4{
+    color: #e5e7eb;
+    margin-left: 200px;
+
+}
+
+.button1{
+    border: 2px solid white;
+    margin-right: 200px;
+}
+
+.footer{
+    text-align: center;
+    background-color: #1F2937 ;
+    color: #e5e7eb;
+    padding: 50px;
 }
